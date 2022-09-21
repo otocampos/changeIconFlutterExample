@@ -35,7 +35,6 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   dynamic_icon_flutter: 0.0.7
-  package_info_plus: ^1.4.2
 
 
 dev_dependencies:

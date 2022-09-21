@@ -1,7 +1,6 @@
 import 'package:dynamic_icon_flutter/dynamic_icon_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:package_info_plus/package_info_plus.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +15,6 @@ class _MyAppState extends State<MyApp> {
   String currentIconName = "?";
 
   bool loading = false;
-  PackageInfo? packageInfo;
 
   TextEditingController controller = TextEditingController();
   @override
